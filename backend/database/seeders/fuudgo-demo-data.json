@@ -1,0 +1,1077 @@
+[
+  {
+    "id": "r1",
+    "slug": "lidah-sarawak-kitchen",
+    "name": "Lidah Sarawak Kitchen",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Sarawak",
+      "Noodles"
+    ],
+    "tags": [
+      "Kuching City Centre",
+      "Local favourite"
+    ],
+    "rating": 4.2,
+    "reviews": 86,
+    "deliveryMinutes": 22,
+    "pickupMinutes": 12,
+    "deliveryFee": 2.5,
+    "minimum": 15,
+    "promotion": "15% off RM25",
+    "featured": true,
+    "dishes": [
+      {
+        "id": "laksa",
+        "name": "Sarawak Laksa",
+        "description": "Aromatic coconut broth, rice vermicelli, shredded chicken, prawn and fresh herbs.",
+        "price": 18,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "kolo",
+        "name": "Kolo Mee Special",
+        "description": "Springy noodles tossed in savoury shallot oil with char siu and greens.",
+        "price": 13,
+        "category": "Noodles",
+        "image": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "midin",
+        "name": "Midin Belacan",
+        "description": "Fresh jungle fern wok-tossed with fragrant belacan and garlic.",
+        "price": 16,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "slug": "rumah-pansoh",
+    "name": "Rumah Pansoh",
+    "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Dayak-inspired",
+      "Rice"
+    ],
+    "tags": [
+      "Satok",
+      "Popular"
+    ],
+    "rating": 4.9,
+    "reviews": 123,
+    "deliveryMinutes": 29,
+    "pickupMinutes": 17,
+    "deliveryFee": 3,
+    "minimum": 20,
+    "promotion": "Free delivery over RM35",
+    "featured": true,
+    "dishes": [
+      {
+        "id": "pansuh",
+        "name": "Manok Pansoh Rice Set",
+        "description": "Chicken gently cooked with lemongrass and tapioca leaves, served with rice.",
+        "price": 24,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "aruk",
+        "name": "Nasi Aruk with Ikan",
+        "description": "Smoky Sarawak-style fried rice served with crisp local fish.",
+        "price": 19,
+        "category": "Rice & bowls",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "teh",
+        "name": "Teh C Peng Special",
+        "description": "Layered local tea with creamy milk and a mellow sweetness.",
+        "price": 7,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "slug": "kolo-corner",
+    "name": "Kolo Corner",
+    "image": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Chinese",
+      "Noodles"
+    ],
+    "tags": [
+      "Tabuan Jaya",
+      "Quick bites"
+    ],
+    "rating": 4.8,
+    "reviews": 160,
+    "deliveryMinutes": 36,
+    "pickupMinutes": 22,
+    "deliveryFee": 3.5,
+    "minimum": 25,
+    "promotion": "Popular near you",
+    "featured": true,
+    "dishes": [
+      {
+        "id": "kampua",
+        "name": "Kampua Mee",
+        "description": "Silky noodles with savoury pork slices, greens and house seasoning.",
+        "price": 14,
+        "category": "Noodles",
+        "image": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "tomato",
+        "name": "Mee Tomato",
+        "description": "Wok-fried noodles in a bright tomato gravy with egg and vegetables.",
+        "price": 17,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "dumpling",
+        "name": "Handmade Dumplings",
+        "description": "Pan-seared dumplings with ginger soy dipping sauce.",
+        "price": 15,
+        "category": "Sides",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "slug": "dapur-kacangma",
+    "name": "Dapur Kacangma",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Sarawak",
+      "Malay"
+    ],
+    "tags": [
+      "Pending",
+      "Local favourite"
+    ],
+    "rating": 4.7,
+    "reviews": 197,
+    "deliveryMinutes": 43,
+    "pickupMinutes": 12,
+    "deliveryFee": 4,
+    "minimum": 15,
+    "featured": true,
+    "dishes": [
+      {
+        "id": "kacangma",
+        "name": "Manok Kacangma Set",
+        "description": "Chicken simmered with fragrant motherwort and ginger, with steamed rice.",
+        "price": 23,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "beehoon",
+        "name": "Belacan Bee Hoon",
+        "description": "Rice vermicelli stir-fried with local belacan, prawns and vegetables.",
+        "price": 18,
+        "category": "Noodles",
+        "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "lime",
+        "name": "Calamansi Cooler",
+        "description": "Bright calamansi, a little sweetness and plenty of ice.",
+        "price": 6,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r5",
+    "slug": "riverbank-umai",
+    "name": "Riverbank Umai",
+    "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Sarawak",
+      "Seafood"
+    ],
+    "tags": [
+      "Petra Jaya",
+      "Popular"
+    ],
+    "rating": 4.6,
+    "reviews": 234,
+    "deliveryMinutes": 24,
+    "pickupMinutes": 17,
+    "deliveryFee": 2.5,
+    "minimum": 20,
+    "promotion": "15% off RM25",
+    "featured": true,
+    "dishes": [
+      {
+        "id": "umai",
+        "name": "Umai-inspired Citrus Fish",
+        "description": "A refreshing citrus-marinated fish plate with shallot and herbs.",
+        "price": 22,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "prawn",
+        "name": "Sambal Prawn Rice",
+        "description": "Juicy prawns in house sambal served over fragrant rice.",
+        "price": 21,
+        "category": "Rice & bowls",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "cendol",
+        "name": "Gula Apong Cendol",
+        "description": "Shaved ice, pandan jelly and rich Sarawak gula apong.",
+        "price": 9,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r6",
+    "slug": "kedai-mee-jawa",
+    "name": "Kedai Mee Jawa",
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Malaysian",
+      "Noodles"
+    ],
+    "tags": [
+      "Batu Kawa",
+      "Quick bites"
+    ],
+    "rating": 4.5,
+    "reviews": 271,
+    "deliveryMinutes": 31,
+    "pickupMinutes": 22,
+    "deliveryFee": 3,
+    "minimum": 25,
+    "promotion": "Free delivery over RM35",
+    "featured": true,
+    "dishes": [
+      {
+        "id": "mee-jawa",
+        "name": "Mee Jawa",
+        "description": "Yellow noodles in a rich sweet-spiced gravy with tofu and egg.",
+        "price": 16,
+        "category": "Noodles",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "roti",
+        "name": "Roti Canai Set",
+        "description": "Flaky hand-stretched flatbread with dhal and curry dips.",
+        "price": 9,
+        "category": "Malaysian favourites",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "milo",
+        "name": "Iced Milo",
+        "description": "A local classic served cold and chocolatey.",
+        "price": 6,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r7",
+    "slug": "borneo-bowl-house",
+    "name": "Borneo Bowl House",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Malaysian",
+      "Rice"
+    ],
+    "tags": [
+      "Matang",
+      "Local favourite"
+    ],
+    "rating": 4.4,
+    "reviews": 308,
+    "deliveryMinutes": 38,
+    "pickupMinutes": 12,
+    "deliveryFee": 3.5,
+    "minimum": 15,
+    "promotion": "Popular near you",
+    "featured": true,
+    "dishes": [
+      {
+        "id": "chicken-rice",
+        "name": "Hainanese Chicken Rice",
+        "description": "Tender poached chicken, fragrant rice and ginger chilli.",
+        "price": 17,
+        "category": "Rice & bowls",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "roast",
+        "name": "Char Siu Rice Bowl",
+        "description": "Honey-glazed roast pork with rice and greens.",
+        "price": 18,
+        "category": "Rice & bowls",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "soup",
+        "name": "Wonton Soup",
+        "description": "Pork and prawn wontons in a clear, comforting broth.",
+        "price": 12,
+        "category": "Sides",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r8",
+    "slug": "satok-curry-table",
+    "name": "Satok Curry Table",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Malay",
+      "Noodles"
+    ],
+    "tags": [
+      "Stutong",
+      "Popular"
+    ],
+    "rating": 4.3,
+    "reviews": 345,
+    "deliveryMinutes": 45,
+    "pickupMinutes": 17,
+    "deliveryFee": 4,
+    "minimum": 20,
+    "featured": true,
+    "dishes": [
+      {
+        "id": "curry-laksa",
+        "name": "Curry Laksa",
+        "description": "Creamy curry broth with noodles, tofu puffs and fresh herbs.",
+        "price": 17,
+        "category": "Noodles",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "satay",
+        "name": "Chicken Satay",
+        "description": "Char-grilled chicken skewers with peanut sauce.",
+        "price": 15,
+        "category": "Sides",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "tea",
+        "name": "Lemon Tea",
+        "description": "Freshly brewed tea with lemon over ice.",
+        "price": 6,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r9",
+    "slug": "garden-gate-pizzeria",
+    "name": "Garden Gate Pizzeria",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Western",
+      "Pizza"
+    ],
+    "tags": [
+      "Kuching City Centre",
+      "Quick bites"
+    ],
+    "rating": 4.2,
+    "reviews": 382,
+    "deliveryMinutes": 26,
+    "pickupMinutes": 22,
+    "deliveryFee": 2.5,
+    "minimum": 25,
+    "promotion": "15% off RM25",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "pizza",
+        "name": "Garden Market Pizza",
+        "description": "Crisp stone-baked crust, roasted vegetables and mozzarella.",
+        "price": 28,
+        "category": "Western",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "pasta",
+        "name": "Creamy Mushroom Pasta",
+        "description": "Pasta tossed with mushrooms, herbs and parmesan.",
+        "price": 24,
+        "category": "Western",
+        "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "salad-bowl",
+        "name": "Garden Salad Bowl",
+        "description": "Seasonal greens, tomato, cucumber and citrus dressing.",
+        "price": 17,
+        "category": "Bowls",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r10",
+    "slug": "smash-sizzle",
+    "name": "Smash & Sizzle",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Western",
+      "Burgers"
+    ],
+    "tags": [
+      "Satok",
+      "Local favourite"
+    ],
+    "rating": 4.9,
+    "reviews": 419,
+    "deliveryMinutes": 33,
+    "pickupMinutes": 12,
+    "deliveryFee": 3,
+    "minimum": 15,
+    "promotion": "Free delivery over RM35",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "burger",
+        "name": "Classic Smash Burger",
+        "description": "Smashed beef patty, cheddar, pickles and house sauce.",
+        "price": 24,
+        "category": "Burgers",
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "fries",
+        "name": "Crispy Shoestring Fries",
+        "description": "Golden fries with a pinch of sea salt.",
+        "price": 9,
+        "category": "Sides",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "shake",
+        "name": "Vanilla Milkshake",
+        "description": "Thick vanilla shake, blended to order.",
+        "price": 12,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r11",
+    "slug": "kuching-comfort-kitchen",
+    "name": "Kuching Comfort Kitchen",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Sarawak",
+      "Malaysian"
+    ],
+    "tags": [
+      "Tabuan Jaya",
+      "Popular"
+    ],
+    "rating": 4.8,
+    "reviews": 456,
+    "deliveryMinutes": 40,
+    "pickupMinutes": 17,
+    "deliveryFee": 3.5,
+    "minimum": 20,
+    "promotion": "Popular near you",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "laksa-bowl",
+        "name": "Mini Sarawak Laksa",
+        "description": "A smaller bowl of our signature aromatic laksa.",
+        "price": 13,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "fried-chicken",
+        "name": "Crispy Chicken Rice",
+        "description": "Crunchy chicken with rice, greens and chilli dip.",
+        "price": 18,
+        "category": "Rice & bowls",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "sago",
+        "name": "Sago Gula Apong",
+        "description": "Chilled sago pearls with coconut milk and gula apong.",
+        "price": 8,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r12",
+    "slug": "jade-lantern-bento",
+    "name": "Jade Lantern Bento",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Asian",
+      "Japanese"
+    ],
+    "tags": [
+      "Pending",
+      "Quick bites"
+    ],
+    "rating": 4.7,
+    "reviews": 493,
+    "deliveryMinutes": 47,
+    "pickupMinutes": 22,
+    "deliveryFee": 4,
+    "minimum": 25,
+    "featured": false,
+    "dishes": [
+      {
+        "id": "udon",
+        "name": "Ginger Soy Udon",
+        "description": "Thick udon noodles tossed in ginger soy with mushrooms.",
+        "price": 19,
+        "category": "Noodles",
+        "image": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "bento",
+        "name": "Teriyaki Bento",
+        "description": "Grilled chicken, rice, seasonal sides and sesame.",
+        "price": 22,
+        "category": "Rice & bowls",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "mochi",
+        "name": "Mochi Trio",
+        "description": "Soft rice cakes filled with seasonal flavours.",
+        "price": 10,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r13",
+    "slug": "little-market-tacos",
+    "name": "Little Market Tacos",
+    "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Western",
+      "Mexican"
+    ],
+    "tags": [
+      "Petra Jaya",
+      "Local favourite"
+    ],
+    "rating": 4.6,
+    "reviews": 530,
+    "deliveryMinutes": 28,
+    "pickupMinutes": 12,
+    "deliveryFee": 2.5,
+    "minimum": 15,
+    "promotion": "15% off RM25",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "tacos",
+        "name": "Grilled Chicken Tacos",
+        "description": "Three soft tortillas with grilled chicken and fresh salsa.",
+        "price": 20,
+        "category": "Western",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "burrito",
+        "name": "Veggie Burrito Bowl",
+        "description": "Rice, beans, roasted corn and avocado crema.",
+        "price": 18,
+        "category": "Bowls",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "lemonade",
+        "name": "House Limeade",
+        "description": "Fresh lime, mint and sparkling water.",
+        "price": 8,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r14",
+    "slug": "morning-fig-bakehouse",
+    "name": "Morning Fig Bakehouse",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Bakery",
+      "Café"
+    ],
+    "tags": [
+      "Batu Kawa",
+      "Popular"
+    ],
+    "rating": 4.5,
+    "reviews": 567,
+    "deliveryMinutes": 35,
+    "pickupMinutes": 17,
+    "deliveryFee": 3,
+    "minimum": 20,
+    "promotion": "Free delivery over RM35",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "croissant",
+        "name": "Butter Croissant",
+        "description": "Laminated, golden pastry baked fresh each morning.",
+        "price": 9,
+        "category": "Bakery",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "toast",
+        "name": "Kaya Butter Toast",
+        "description": "Toasted bread with kaya and chilled butter.",
+        "price": 8,
+        "category": "Bakery",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "latte",
+        "name": "Iced Gula Apong Latte",
+        "description": "Espresso and milk sweetened with Sarawak palm sugar.",
+        "price": 14,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r15",
+    "slug": "layer-leaf-caf-",
+    "name": "Layer & Leaf Café",
+    "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Sarawak",
+      "Desserts"
+    ],
+    "tags": [
+      "Matang",
+      "Quick bites"
+    ],
+    "rating": 4.4,
+    "reviews": 604,
+    "deliveryMinutes": 42,
+    "pickupMinutes": 22,
+    "deliveryFee": 3.5,
+    "minimum": 25,
+    "promotion": "Popular near you",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "layer-cake",
+        "name": "Kek Lapis Sarawak Slice",
+        "description": "A colourful slice of layered cake, baked in small batches.",
+        "price": 12,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "pandan",
+        "name": "Pandan Chiffon Cake",
+        "description": "Light, fragrant pandan sponge with a soft crumb.",
+        "price": 10,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "coffee",
+        "name": "Kuching White Coffee",
+        "description": "Smooth local-style coffee, served hot or iced.",
+        "price": 8,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r16",
+    "slug": "southbank-seafood",
+    "name": "Southbank Seafood",
+    "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Seafood",
+      "Malaysian"
+    ],
+    "tags": [
+      "Stutong",
+      "Local favourite"
+    ],
+    "rating": 4.3,
+    "reviews": 641,
+    "deliveryMinutes": 23,
+    "pickupMinutes": 12,
+    "deliveryFee": 4,
+    "minimum": 15,
+    "featured": false,
+    "dishes": [
+      {
+        "id": "seafood-rice",
+        "name": "Seafood Fried Rice",
+        "description": "Wok-fried rice with prawns, egg and spring onion.",
+        "price": 20,
+        "category": "Rice & bowls",
+        "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "fish",
+        "name": "Crispy Fish Fillet",
+        "description": "Golden fish with house tartar and a side salad.",
+        "price": 23,
+        "category": "Seafood",
+        "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "soup-sea",
+        "name": "Seafood Soup",
+        "description": "A warming ginger broth with seafood and greens.",
+        "price": 18,
+        "category": "Seafood",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r17",
+    "slug": "sambal-street",
+    "name": "Sambal Street",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Malay",
+      "Rice"
+    ],
+    "tags": [
+      "Kuching City Centre",
+      "Popular"
+    ],
+    "rating": 4.2,
+    "reviews": 678,
+    "deliveryMinutes": 30,
+    "pickupMinutes": 17,
+    "deliveryFee": 2.5,
+    "minimum": 20,
+    "promotion": "15% off RM25",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "nasi-lemak",
+        "name": "Nasi Lemak Ayam",
+        "description": "Coconut rice, sambal, egg, peanuts and crispy chicken.",
+        "price": 18,
+        "category": "Malaysian favourites",
+        "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "ayam-penyet",
+        "name": "Ayam Penyet",
+        "description": "Smashed fried chicken with sambal and rice.",
+        "price": 19,
+        "category": "Malaysian favourites",
+        "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "bandung",
+        "name": "Sirap Bandung",
+        "description": "Rose syrup and milk served over ice.",
+        "price": 6,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r18",
+    "slug": "midin-more",
+    "name": "Midin & More",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Sarawak",
+      "Western"
+    ],
+    "tags": [
+      "Satok",
+      "Quick bites"
+    ],
+    "rating": 4.9,
+    "reviews": 715,
+    "deliveryMinutes": 37,
+    "pickupMinutes": 22,
+    "deliveryFee": 3,
+    "minimum": 25,
+    "promotion": "Free delivery over RM35",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "midin-pasta",
+        "name": "Midin Garlic Pasta",
+        "description": "Local fern meets garlic butter and parmesan.",
+        "price": 21,
+        "category": "Western",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "grilled-fish",
+        "name": "Grilled Fish Plate",
+        "description": "Grilled fish with rice, greens and a bright sambal.",
+        "price": 25,
+        "category": "Seafood",
+        "image": "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "fruit",
+        "name": "Seasonal Fruit Cup",
+        "description": "A chilled mix of fresh seasonal fruit.",
+        "price": 9,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r19",
+    "slug": "kopi-kita",
+    "name": "Kopi Kita",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Café",
+      "Malaysian"
+    ],
+    "tags": [
+      "Tabuan Jaya",
+      "Local favourite"
+    ],
+    "rating": 4.8,
+    "reviews": 752,
+    "deliveryMinutes": 44,
+    "pickupMinutes": 12,
+    "deliveryFee": 3.5,
+    "minimum": 15,
+    "promotion": "Popular near you",
+    "featured": false,
+    "dishes": [
+      {
+        "id": "curry-puff",
+        "name": "Curry Puff Duo",
+        "description": "Flaky pastry filled with gently spiced potato.",
+        "price": 8,
+        "category": "Snacks",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "mee-goreng",
+        "name": "Mee Goreng Mamak",
+        "description": "Wok-fried noodles with tofu, egg and a squeeze of lime.",
+        "price": 15,
+        "category": "Noodles",
+        "image": "https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "kopi",
+        "name": "Kopi O Ice",
+        "description": "Strong local coffee, lightly sweetened and chilled.",
+        "price": 5,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  },
+  {
+    "id": "r20",
+    "slug": "apam-balik-lane",
+    "name": "Apam Balik Lane",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+    "cuisine": [
+      "Desserts",
+      "Snacks"
+    ],
+    "tags": [
+      "Pending",
+      "Popular"
+    ],
+    "rating": 4.7,
+    "reviews": 789,
+    "deliveryMinutes": 25,
+    "pickupMinutes": 17,
+    "deliveryFee": 4,
+    "minimum": 20,
+    "featured": false,
+    "dishes": [
+      {
+        "id": "pancake",
+        "name": "Apam Balik",
+        "description": "Crisp-edged folded pancake with peanut and sweet corn.",
+        "price": 8,
+        "category": "Desserts",
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": true
+      },
+      {
+        "id": "laksa-small",
+        "name": "Sarawak Laksa Cup",
+        "description": "A snack-size portion of our house laksa.",
+        "price": 12,
+        "category": "Sarawak favourites",
+        "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      },
+      {
+        "id": "soy",
+        "name": "Iced Soya Bean",
+        "description": "Fresh soy milk served cold.",
+        "price": 5,
+        "category": "Drinks",
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=85",
+        "available": true,
+        "popular": false
+      }
+    ]
+  }
+]

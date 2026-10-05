@@ -1,0 +1,17 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "name": "fuudgo/vercel-runtime-build",
+  "description": "Composer build hook for FuudGo's Vercel PHP runtime.",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.3"
+  },
+  "scripts": {
+    "vercel": [
+      "cd backend && composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}

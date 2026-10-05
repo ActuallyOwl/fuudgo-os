@@ -1,0 +1,7 @@
+"use client";
+import {FormEvent,useState} from "react";
+import Link from "next/link";
+import {useRouter} from "next/navigation";
+import {api,ApiError} from "@/lib/api";
+import {useApp} from "@/components/app-provider";
+export default function AdminLogin(){const router=useRouter();const {refreshUser}=useApp();const [error,setError]=useState(""),[busy,setBusy]=useState(false);async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();setBusy(true);setError("");const fd=new FormData(e.currentTarget);try{await api("/api/admin/login",{method:"POST",body:JSON.stringify({email:fd.get("email"),password:fd.get("password")})});await refreshUser();router.replace("/admin")}catch(err){setError(err instanceof ApiError?err.message:"Sign-in failed.")}finally{setBusy(false)}}return <div className="wrap all-restaurants"><div className="saved-empty auth-card"><span className="eyebrow">FUUDGO OPERATIONS</span><h1>Admin sign in.</h1><p>Administrator access for managing orders and content.</p><form className="auth-form" onSubmit={submit}><label className="form-field">Email<input name="email" type="email" autoComplete="username" required/></label><label className="form-field">Password<input name="password" type="password" autoComplete="current-password" required/></label>{error&&<p role="alert" className="error-text">{error}</p>}<button className="button primary" disabled={busy}>{busy?"Signing in…":"Sign in as admin"}</button></form><Link href="/">Return to FuudGo</Link></div></div>}

@@ -1,0 +1,11 @@
+"use client";
+import { FormEvent, useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { api, ApiError } from "@/lib/api";
+import { useApp } from "@/components/app-provider";
+
+export default function RegisterPage(){const router=useRouter();const {refreshUser}=useApp();const [error,setError]=useState(""),[busy,setBusy]=useState(false);
+ async function submit(e:FormEvent<HTMLFormElement>){e.preventDefault();setError("");setBusy(true);const form=new FormData(e.currentTarget);try{await api("/api/register",{method:"POST",body:JSON.stringify({name:form.get("name"),email:form.get("email"),phone:form.get("phone"),password:form.get("password"),password_confirmation:form.get("password_confirmation")})});await refreshUser();router.replace("/account")}catch(err){const apiErr=err instanceof ApiError?err:null;setError(apiErr?.errors?Object.values(apiErr.errors).flat().join(" "):apiErr?.message||"We couldn't create your account. Try again.")}finally{setBusy(false)}}
+ return <div className="wrap all-restaurants"><div className="saved-empty auth-card"><span className="eyebrow">JOIN FUUDGO</span><h1>Let’s make this easy.</h1><p>Create an account to save your details and follow your orders.</p><form className="auth-form" onSubmit={submit}><label className="form-field">Your name<input name="name" autoComplete="name" minLength={2} required/></label><label className="form-field">Email address<input name="email" type="email" autoComplete="email" required/></label><label className="form-field">Phone number<input name="phone" type="tel" autoComplete="tel" minLength={8} required/></label><label className="form-field">Password<input name="password" type="password" autoComplete="new-password" minLength={12} required/><small>Use 12 or more characters with a mix of letters and numbers.</small></label><label className="form-field">Confirm password<input name="password_confirmation" type="password" autoComplete="new-password" required/></label>{error&&<p role="alert" className="error-text">{error}</p>}<button className="button primary" disabled={busy}>{busy?"Creating account…":"Create account"}</button></form><div className="auth-links"><span>Already have an account? <Link href="/login">Sign in</Link></span></div></div></div>
+}
